@@ -1,0 +1,16 @@
+{
+  "name": "harmony-labs",
+  "description": "Claude Code plugins by Harmony Labs",
+  "owner": {
+    "name": "Harmony Labs",
+    "url": "https://github.com/harmony-labs"
+  },
+  "plugins": [
+    {
+      "name": "meta",
+      "source": "harmony-labs/meta",
+      "description": "Multi-repo workspace management — skills, hooks, and MCP server for the meta CLI.",
+      "version": "0.1.0"
+    }
+  ]
+}
