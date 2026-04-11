@@ -6,13 +6,13 @@ A [Claude Code plugin marketplace](https://docs.anthropic.com/en/docs/agents-and
 
 | Plugin | Description |
 |--------|-------------|
-| [meta](https://github.com/harmony-labs/meta) | Multi-repo workspace management — skills, hooks, and MCP server. |
+| [meta](https://github.com/gitkb/meta) | Multi-repo workspace management — skills, hooks, and MCP server. |
 
 ## Usage
 
 ```bash
 # Add this marketplace
-claude plugin marketplace add harmony-labs/claude-plugins
+claude plugin marketplace add gitkb/claude-plugins
 
 # Install a plugin
 claude plugin install meta@harmony-labs

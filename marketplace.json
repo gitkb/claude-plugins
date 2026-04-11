@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "meta",
-      "source": "harmony-labs/meta",
+      "source": "gitkb/meta",
       "description": "Multi-repo workspace management — skills, hooks, and MCP server for the meta CLI.",
       "version": "0.1.0"
     }
