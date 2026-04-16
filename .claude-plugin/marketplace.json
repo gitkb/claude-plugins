@@ -8,13 +8,21 @@
   "plugins": [
     {
       "name": "meta",
-      "source": "gitkb/meta",
+      "source": {
+        "source": "git-subdir",
+        "url": "gitkb/meta",
+        "path": "claude-plugin"
+      },
       "description": "Multi-repo workspace management — skills, hooks, and MCP server for the meta CLI.",
       "version": "0.1.0"
     },
     {
       "name": "gitkb",
-      "source": "gitkb/gitkb-claude-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "gitkb/gitkb-claude-plugin",
+        "path": "plugin"
+      },
       "description": "Knowledge base and code intelligence for AI-native development. Persistent agent memory, task management, call graphs, impact analysis, and 42 MCP tools — all local, all free.",
       "version": "0.1.0"
     }
