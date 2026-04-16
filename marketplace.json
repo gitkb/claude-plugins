@@ -1,15 +1,21 @@
 {
-  "name": "harmony-labs",
-  "description": "Claude Code plugins by Harmony Labs",
+  "name": "gitkb",
+  "description": "Claude Code plugins by GitKB",
   "owner": {
-    "name": "Harmony Labs",
-    "url": "https://github.com/harmony-labs"
+    "name": "GitKB",
+    "url": "https://github.com/gitkb"
   },
   "plugins": [
     {
       "name": "meta",
       "source": "gitkb/meta",
       "description": "Multi-repo workspace management — skills, hooks, and MCP server for the meta CLI.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "gitkb",
+      "source": "gitkb/gitkb-claude-plugin",
+      "description": "Knowledge base and code intelligence for AI-native development. Persistent agent memory, task management, call graphs, impact analysis, and 42 MCP tools — all local, all free.",
       "version": "0.1.0"
     }
   ]
