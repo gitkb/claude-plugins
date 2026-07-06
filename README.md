@@ -16,6 +16,7 @@ A [Claude Code plugin marketplace](https://docs.anthropic.com/en/docs/agents-and
 claude plugin marketplace add gitkb/claude-plugins
 
 # Install a plugin
+
 claude plugin install meta@gitkb
 claude plugin install gitkb@gitkb
 ```
